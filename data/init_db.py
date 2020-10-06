@@ -20,7 +20,7 @@ def init_db():
 
 
 def create_schema():
-    creation_script_file = 'data/db_schema/01_create_schema.sql'
+    creation_script_file = 'db_schema/01_create_schema.sql'
     with open(creation_script_file) as schema_script:
         with establish_connection() as conn, \
                 conn.cursor() as cursor:

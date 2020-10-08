@@ -1,7 +1,7 @@
 /* Pagination links */
 .pagination{
-   width: 100%;
-   margin-top: 5px;
+    width: 100%;
+   margin-top: 20px;
    text-align: center;
  }
  .pagination a {
